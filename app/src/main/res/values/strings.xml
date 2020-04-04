@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">VideoPlayer</string>
+    <string name="permission_denied_string">Permission Denied</string>
+    <string name="enable_storage_permission_in_settings_or_close_and_re_open_the_app_to_enable_permission">Enable storage permission in settings \n\n  or \n\n Close and re-open the app to enable storage permission.</string>
+    <string name="created_on">Created On</string>
+</resources>

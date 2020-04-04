@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_xxx_large">24sp</dimen>
+    <dimen name="font_size_xx_large">20sp</dimen>
+    <dimen name="font_size_x_large">16sp</dimen>
+    <dimen name="font_size_large">14sp</dimen>
+    <dimen name="font_size_medium">12sp</dimen>
+    <dimen name="font_size_small">10sp</dimen>
+
+
+    <dimen name="space_xxx_large">30dp</dimen>
+    <dimen name="space_xx_large">26dp</dimen>
+    <dimen name="space_x_large">22dp</dimen>
+    <dimen name="space_large">18dp</dimen>
+    <dimen name="space_medium">14dp</dimen>
+    <dimen name="space_small">10dp</dimen>
+    <dimen name="default_video_view_height">250dp</dimen>
+    <dimen name="logo_size">55dp</dimen>
+    <dimen name="view_height">1dp</dimen>
+
+
+</resources>

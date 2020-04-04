@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_small"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="@dimen/logo_size"
+            android:layout_height="@dimen/logo_size"
+            android:layout_gravity="center"
+            android:background="@drawable/rectangle_box"
+            android:src="@drawable/video" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/space_small"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_video_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="1"
+                android:text="VideoName"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/font_size_x_large"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_medium"
+                android:layout_marginTop="@dimen/space_small"
+                android:textSize="@dimen/font_size_medium"
+                android:text="jdvwvkve"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:layout_marginTop="@dimen/space_small"
+                android:background="@color/colorGrey"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
+
